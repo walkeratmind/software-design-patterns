@@ -1,0 +1,27 @@
+package com.codemonk.iterator.product;
+
+/**
+ * -----------------------------------------------------------------------------
+ * - Author: Rakesh Niraula
+ * - Date: Friday, 05-June-2020
+ * - Copyright(c): Codemonk 2020. All rights reserved.
+ * -----------------------------------------------------------------------------
+ **/
+
+public class Product {
+    private int id;
+    private String name;
+
+    public Product(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+}

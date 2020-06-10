@@ -1,4 +1,4 @@
-package com.codemonk.memento;
+package com.codemonk.memento.editor;
 
 /**
  * -----------------------------------------------------------------------------
@@ -24,5 +24,12 @@ public class Editor {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    @Override
+    public String toString() {
+        return "Editor{" +
+                "content='" + content + '\'' +
+                '}';
     }
 }

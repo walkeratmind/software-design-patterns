@@ -1,6 +1,4 @@
-package com.codemonk.memento;
-
-import com.codemonk.memento.Editor;
+package com.codemonk.memento.editor;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.codemonk.memento;
+package com.codemonk.memento.editor;
 
 /**
  * -----------------------------------------------------------------------------
